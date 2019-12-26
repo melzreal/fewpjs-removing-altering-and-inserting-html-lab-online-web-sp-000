@@ -4,6 +4,6 @@ main.remove();
 
 let newHeader = document.createElement("h1")
 document.body.appendChild(newHeader)
-newHeader.classList.add('victory')
+newHeader.className('victory')
 newHeader.innerHTML = "iii is the champion";
 
