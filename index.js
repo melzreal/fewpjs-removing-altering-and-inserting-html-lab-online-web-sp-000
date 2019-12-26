@@ -15,4 +15,6 @@ element.appendChild(ul)
 let main = document.querySelector('main')
 main.innerHTML = ''
 
-let header = document.get
+let header = document.getElementById("header")
+
+header.innerHTML = "<h1> </h1>"
