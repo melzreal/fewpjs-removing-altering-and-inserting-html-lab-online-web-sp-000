@@ -9,4 +9,4 @@ document.body.appendChild(newHeader)
 
 newHeader.classList.add('victory')
 newHeader.innerHTML = "iii is the champion";
-
+newHeader.id = 'victory'
