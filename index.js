@@ -1,5 +1,5 @@
 
-let main = document.querySelector('#main')
+let main = document.getElementById('main')
 main.innerHTML = ''
 
 let newHeader = document.getElementById("header")
