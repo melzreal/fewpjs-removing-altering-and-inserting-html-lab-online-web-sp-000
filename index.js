@@ -4,5 +4,5 @@ main.remove();
 let h = document.createElement("header")
 let hChampion = document.createElement("h1#victory")
 
-newHeader.appendChild(hChampion)
+let newHeader = h.appendChild(hChampion)
 
