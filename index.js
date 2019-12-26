@@ -2,7 +2,7 @@
 let main = document.getElementById('main');
 main.remove();
 
-let newHeader = document.getElementById("header")
+let newHeader = document.createElement("header")
 
-newHeader.innerHTML = "<h1>Heck is the champion</h1>"
-newHeader.id = 'victory'
+newHeader.appendChild("<h1>Heck is the champion</h1>")
+
