@@ -3,6 +3,6 @@ let main = document.getElementById('main');
 main.remove();
 
 let newHeader = document.createElement("header")
-
-newHeader.appendChild("<h1>Heck is the champion</h1>")
+let hChampion = document.createElement("h1#victory")
+newHeader.appendChild(hChampion)
 
