@@ -15,7 +15,7 @@ element.appendChild(ul)
 let main = document.querySelector('main')
 main.innerHTML = ''
 
-let header = document.getElementById("header")
+let newHeader = document.getElementById("header")
 
-header.innerHTML = "<h1>Heck is the champion</h1>"
-header.id = 'victory'
+newHeader.innerHTML = "<h1>Heck is the champion</h1>"
+newHeader.id = 'victory'
