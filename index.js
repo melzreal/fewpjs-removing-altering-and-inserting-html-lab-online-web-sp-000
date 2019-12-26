@@ -9,4 +9,3 @@ newHeader.id('victory')
 
 newHeader.innerHTML = "iii is the champion";
 
-newHeader.className = 'victory'
