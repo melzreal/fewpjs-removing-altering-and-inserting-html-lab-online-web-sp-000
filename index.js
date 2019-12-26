@@ -1,14 +1,14 @@
 // Write your code here!
-let element = document.createElement('div')
-document.body.appendChild(element)
+// let element = document.createElement('div')
+// document.body.appendChild(element)
 
-let ul = document.createElement('ul')
+// let ul = document.createElement('ul')
 
-for (let i=0; i < 3; i++ ){
-  let li = document.createElement('li')
-  li.innerHTML = (i+1).toString()
-  ul.appendChild(li)
-}
+// for (let i=0; i < 3; i++ ){
+//   let li = document.createElement('li')
+//   li.innerHTML = (i+1).toString()
+//   ul.appendChild(li)
+// }
 
 element.appendChild(ul)
 
@@ -17,4 +17,5 @@ main.innerHTML = ''
 
 let header = document.getElementById("header")
 
-header.innerHTML = "<h1> </h1>"
+header.innerHTML = "<h1>Heck is the champion</h1>"
+header.id = 'victory'
